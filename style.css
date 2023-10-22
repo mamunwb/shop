@@ -1,0 +1,346 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+
+.icon{
+  position: absolute;
+  top: 1%;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 50px;
+  color: blueviolet;
+  width: 30px;
+}
+.searchAria{
+  width: 200px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.searchAria input{
+  outline: none;
+  border: none;
+  text-align: center;
+  background: transparent;
+}
+.slider{
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.slider-box{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.slider img{
+  width: 100%;
+  padding-top: px;
+}
+.slider h1{
+  font-size: 40px;
+  text-align: center;
+}
+.slider h1 span{
+  color: blueviolet;
+}
+.slider button{
+  width: 100px;
+  padding: 10px;
+  position: center;
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 50px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+}
+.slider button:hover{
+  background: green;
+  color:white;
+}
+
+.iconAria{
+  margin-top: 30px;
+  background-color: white;
+  position: fixed;
+}
+.iconAria ul{
+  margin-left: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.iconAria ul li{
+  list-style: none;
+}
+
+.iconAria a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px;
+  
+}
+
+.productAria{
+  margin: 50px auto;
+  width: 85%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  padding: 30px;
+}
+
+.productAria h3{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500px;
+}
+.productAria h3 span{
+  color: blueviolet;
+}
+.product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  width: 100%;
+}
+.productBox{
+  width: 250px;
+  height: 350px;
+  margin-top: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px;
+  margin:10px;
+}
+.productBox img{
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.productBox p{
+  font-size: 0.9rem;
+  letter-spacing: 0.5;
+  margin-bottom: 10px;
+}
+.productBox a{
+  color: #2c2c2c;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+.productBox button{
+  background-color: orchid;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  overflow: hidden;
+  border: none;
+}
+.productBox button:hover{
+  background: green;
+}
+
+.productElec{
+  margin: 50px auto;
+  width: 85%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  padding: 30px;
+}
+.productElec h3{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  font-weight: 500px;
+}
+.about{
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.about-box h1{
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.about-box img{
+  width: 400px;
+  height: 500px;
+}
+.about-box p{
+  font-size: 20px;
+  text-align: justify;
+}
+.about-box button{
+  width: 100px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
+  outline: none;
+  background: skyblue;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.notification{
+  background-color: antiquewhite;
+  width: 100%;
+  height: 250px;
+  justify-content: center  !important;
+  align-items: center  !important;
+  display: flex;
+  flex-direction: column;
+}
+.notification h1{
+  font-size: 2rem;
+  color: rgba(56, 56, 56);
+}
+.notificationinfut{
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0, 1);
+  margin-top: 30px;
+}
+.notificationinfut input{
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.notificationbtn{
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  text-decoration: none;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+.notificationbtn:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+footer{
+  background-color: black !important;
+  padding: 20px;
+}
+footer p{
+  text-align: center;
+  color: whitesmoke;
+}
+footer p a{
+  text-decoration:none;
+  color:white;
+}
+
+@media screen and (max-width: 768px){
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.icon{
+  font-size: 30px;
+}
+.searchAria input{
+  width: 60px;
+  text-align: center;
+  background: transparent;
+}
+.searchAria{
+  position: relative;
+  width: 60px;
+  margin-left: 70%;
+  margin-top: 5%;
+}
+ .slider{
+  display: block;
+}
+.slider-box{
+  width: 100%;
+}
+.slider button{
+  margin-left: 50px;
+  background:green;
+  color:white;
+}
+.slider button:hover{
+	background:blue;
+}
+.about{
+  display: block;
+}
+.about-box img{
+  width: 300px;
+}
+.notification h1{
+  text-align: center;
+}
+ .notificationinfut{
+   width: 80%;
+ }
+.iconAria{
+  display: none;
+  border: none;
+  background: darkslateblue;
+  border-radius: 0;
+  width: 100%;
+  position: sticky;
+  top: 590px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+ }
+.iconAria a{
+  text-decoration: none;
+ }
+.iconAria ul{
+  border: none;
+}
+.iconAria ul li{
+  padding: 0;
+  display: inline-block;
+}
+.iconAria ul li a i{
+  color: white;
+  border: 1px solid;
+  padding: 5px;
+}
+.iconAria ul li a i:hover{
+  background: darkblue;
+}
+}
